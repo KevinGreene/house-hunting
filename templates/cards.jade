@@ -6,6 +6,14 @@ mixin corner(c,feature)
 mixin includeSvg(feature)
   if feature=='NIGHTLIFE'
     include assets/nightlife.svg
+  if feature=='FAMILY'
+    include assets/family.svg
+  if feature=='MODERN'
+    include assets/modern.svg
+  if feature=='QUIRKY'
+    include assets/quirky.svg
+  if feature=='PUBLIC'
+    include assets/public.svg
 
 mixin center(feature, value, text)
   .text
@@ -15,7 +23,6 @@ mixin center(feature, value, text)
 mixin center_top(value)
   .center-top
     .value=value
-
 
 .card(class=["feature-#{feature}","value-#{value}"])
   +corner("tl", feature)

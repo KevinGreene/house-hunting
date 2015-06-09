@@ -1,15 +1,16 @@
 text,value,feature
-Next to Che Magnifique,5000,NIGHTLIFE
-Another bedroom,15000,NONE
-Brick Fireplace,12000,NONE
-Flooded basement,-10000,NONE
-Cracked Driveway,0,NONE
-Short Staircases,0,NONE
-Narrow Staircases,0,NONE
-Clawfoot Tub,0,NONE
+Center of Downtown,15000,NIGHTLIFE
+Another bedroom,15000,FAMILY
+Stone Fireplace,15000,MODERN
+Clawfoot Tub,15000,QUIRKY
+Across from Town Hall,15000,PUBLIC
 1-Stall Garage,0,NONE
 2-Stall Garage,0,NONE
 3-Stall Garage,0,NONE
 Woodburning Oven,0,NONE
 Wood Paneled Office,0,NONE
 Legally questionable bedroom,0,NONE
+Flooded basement,-10000,NONE
+Cracked Driveway,-10000,NONE
+Short Staircases,-10000,NONE
+Narrow Staircases,-10000,NONE

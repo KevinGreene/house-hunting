@@ -14,7 +14,11 @@ In general, the game comes at the end, when players continue to reveal their dec
 Artwork:
 
 Cocktail by Tiago Franco from the Noun Project
+
 Family by Jens Tärning from the Noun Project
+
 Monster by Ana Lourenço from the Noun Project
+
 Prism by Martha Ormiston from the Noun Project
+
 Town Hall by Saman Bemel-Benrud from the Noun Project (Public Domain)
