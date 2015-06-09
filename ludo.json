@@ -1,0 +1,7 @@
+{
+	"name":"House Hunting",
+	"target":"pnp",
+	"components":{
+		"cards":{"size":"poker"}
+	}
+}

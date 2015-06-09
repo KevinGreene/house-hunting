@@ -1,0 +1,25 @@
+mixin corner(c,feature)
+  .corner(class="corner-#{c}")
+    .feature
+      +includeSvg(feature)
+
+mixin includeSvg(feature)
+  if feature=='NIGHTLIFE'
+    include assets/nightlife.svg
+
+mixin center(feature, value, text)
+  .text
+    p
+      | #{text}
+
+mixin center_top(value)
+  .center-top
+    .value=value
+
+
+.card(class=["feature-#{feature}","value-#{value}"])
+  +corner("tl", feature)
+  +corner("tr", feature)
+  +center_top(value)
+  .center
+    +center(feature,value,text)
